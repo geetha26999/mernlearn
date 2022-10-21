@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SignUp</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Registration Form </h1>
+        <div style="background-color: rgb(235, 130, 130);">
+            <form action="/entree">
+                <label for="email">Enter an email id </label>
+                <input type="email" name="email" id="email" required><br><br>
+                <label for="pwd">Enter Password </label>
+                <input type="password" name="password" id="pwd" minlength="9" maxlength="15" required><br><br>
+                <label for="username">Tell us what to call you </label>
+                <input type="text" name="username" id="username" minlength="6" maxlength="10"><br><br>
+                <label for="gender" required>Gender </label>
+                <input type="radio" name="gender" id="gender" value="m">Male
+                <input type="radio" name="gender" id="gender" value="f">Female
+                <input type="radio" name="gender" id="gender" value="nm">Not Mention <br><br>
+                <label for="dob">Date Of Birth </label>
+                <input type="date" name="dob" id="dob"><br><br>
+                <label for="course" required>Choose a language </label>
+                <select name="course" id="course">
+                    <option value="c" name="course">C</option>
+                    <option value="python" name="course">Python</option>
+                    <option value="java" name="course">Java</option>
+                </select><br><br>
+                <label for="bio">Fill in few words about yourself </label>
+                <br><textarea rows="5" cols="25" id="bio" name="bio"></textarea><br><br>
+                <label for="rating" required>Rate Us your experience </label>
+                <input type="range" name="rating" id="rating" min="1" max="5"><br><br>
+                <button type="submit">Register!!!</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
