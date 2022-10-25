@@ -1,4 +1,24 @@
+body {
+    background-color: #425F57;
+}
 
-li{
-    color: rgb(233, 33, 153);
+#li-one {
+    color : #749F82;
+}
+
+#li-two {
+    color : #749F82;
+}
+
+#li-three{
+    color : #A8E890;
+}
+
+#li-threenew {
+    color : #EDDBC0;
+}
+
+a{
+    color : #EDDBC0;
+    text-decoration-line: none;
 }
