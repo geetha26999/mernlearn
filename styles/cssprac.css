@@ -1,0 +1,37 @@
+
+* {
+    background-color: #A77979;
+    font-family: Tahoma, sans-serif;
+}
+
+.header-nav {
+    font-size: 1.6em;
+}
+.header-nav a:hover {
+    font-size: 1.2em;
+    color: #704F4F;
+}
+
+#heading1 {
+    background-color : #80558C;
+    color : #E4D192;
+}
+
+p span {
+    color : #E4D192;
+}
+
+button + button:hover {
+    background-color: #AF7AB3;
+    color : chartreuse;
+}
+
+button[type=submit] {
+    background-color : black;
+    color : white;
+}
+
+article h3:nth-of-type(2) {
+    background-color : black;
+    color : white;
+}
